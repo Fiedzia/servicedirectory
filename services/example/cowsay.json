@@ -3,7 +3,7 @@
     "summary": "Cowsay generates an ASCII picture of a cow saying something provided by the user",
     "description": "Cowsay generates an ASCII picture of a cow saying something provided by the user.",
     "protocols": ["http/GET"],
-    "uri": "cowsay.linuxcoder.co.uk/cowsay/",
+    "uri": {"http/GET": "cowsay.linuxcoder.co.uk/cowsay/"},
 		"author": "Maciej Dziardziel",
 		"homepage": "http://cowsay.linuxcoder.co.uk/"
 }

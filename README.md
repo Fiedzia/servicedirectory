@@ -45,7 +45,8 @@ protocols:
 
 uri:
 
-		service uri, in the form DOMAIN_OR_IP[:PORT]/resource
+		dictionary mapping protocols to service uris, in the form DOMAIN_OR_IP[:PORT]/resource.
+		Example:	{"http/GET": "example.com/handle_get", "http/POST": "example2.com/handle_post"}
 
 author:
 
