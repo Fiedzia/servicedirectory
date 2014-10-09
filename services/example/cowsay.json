@@ -3,16 +3,7 @@
     "summary": "Cowsay generates an ASCII picture of a cow saying something provided by the user",
     "description": "Cowsay generates an ASCII picture of a cow saying something provided by the user.",
     "protocols": ["http/GET"],
-    "uri": "ws.linuxcoder.co.uk/cowsay/",
+    "uri": "cowsay.linuxcoder.co.uk/cowsay/",
 		"author": "Maciej Dziardziel",
-		"homepage": "http://ws.linuxcoder.co.uk/cowsay/",
-    "params": [
-        {
-            "name": "t",
-            "longname": "text",
-            "type": "text",
-            "required": true,
-						"description": "Text to speak"
-        }
-    ]
+		"homepage": "http://cowsay.linuxcoder.co.uk/"
 }
