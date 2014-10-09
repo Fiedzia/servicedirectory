@@ -2,8 +2,8 @@
     "name": "cowsay",
     "summary": "Cowsay generates an ASCII picture of a cow saying something provided by the user",
     "description": "Cowsay generates an ASCII picture of a cow saying something provided by the user.",
-    "protocols": ["http/GET"],
-    "uri": {"http/GET": "cowsay.linuxcoder.co.uk/cowsay/"},
+    "protocols": ["http/GET", "http/POST"],
+    "uri": {"http/GET": "cowsay.linuxcoder.co.uk/cowsay/", "http/POST":"cowsay.linuxcoder.co.uk/cowsay/"},
 		"author": "Maciej Dziardziel",
 		"homepage": "http://cowsay.linuxcoder.co.uk/"
 }
